@@ -1,0 +1,150 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.deal-wrapper{
+
+	width: 100%;
+	padding: 10px 150px;
+	background-color: #f0f0f0;
+}
+.deal-container{	
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	
+}
+
+
+.deal-social{
+
+	width: 100%;	
+	display: -webkit-box;	
+	display: -ms-flexbox;	
+	display: flex;
+	height: 50px;
+}
+
+.deal-social-facebook,.deal-social-twitter {
+		width: 50%;
+		text-align: center;
+	
+		height: 100%;
+		text-decoration: none;
+		padding-top:10px; 
+		font-size: 20px;
+		color: #fff;
+	
+}
+.deal-social-facebook{
+	background-color: #3B5997;
+}
+.deal-social-twitter{
+
+	background-color: #00acdd;
+}
+
+.deal-path{
+	margin: 10px;
+	height: 20px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.deal-path a {		
+		text-decoration: none;
+		font-size: 10px;
+		margin: 5px;
+}
+
+
+.deal-path > .separator {
+
+	width: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #ddd;
+	border-right: 0;
+	
+}
+.deal-post-container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-bottom: 20px;
+}
+.deal-post-container-photo{
+	width: 600px;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	margin: 20px;
+
+}
+.deal-post-container h1 {
+	margin: 0;
+	padding: 0 20px;
+	color: #535353;
+}
+.deal-post-text{	
+	padding: 0 10%;
+	line-height: 1.5em;
+}
+
+@media only screen and (max-width:925px){
+
+	.deal-wrapper{
+
+	
+		padding: 10px 5%;
+		
+	}
+
+	.deal-post-container-photo{
+		width: 400px;
+		height: 300px;
+		
+	
+	
+	}
+}
+.crud{
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+@media only screen and (max-width:600px){
+	.deal-post-container-photo{
+		width: 300px;
+		height: 250px;
+		
+	
+	
+	}
+}

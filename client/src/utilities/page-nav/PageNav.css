@@ -1,0 +1,23 @@
+.page-nav--container{
+
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.page-nav--container a{
+
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+
+.clicked{
+
+    color: #DA7635;
+}

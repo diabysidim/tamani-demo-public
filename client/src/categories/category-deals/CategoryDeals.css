@@ -1,0 +1,191 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+section{
+
+	min-height: calc(100vh - 430px);
+}
+
+.search-container{
+
+	min-height: calc(100vh - 300px);
+
+}
+
+
+#deal-container{
+		
+		padding: 0;
+	
+
+}
+ h1{
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 2rem;
+	padding: 0 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+} 
+
+.deals{
+
+	padding: 10px 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* background-color: #f0f0f0; */
+
+
+}
+
+.btn-sort{
+		
+		display: -webkit-box;
+		
+		display: -ms-flexbox;
+		
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		padding: 10px 100px;
+}
+
+.btn-sort > .first-dropdown {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}		
+.deal{
+	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	margin: 0px 70px 20px 70px;
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	background-color: #fff;
+
+
+}
+
+.deal > div{
+
+	margin: 10px;
+}
+
+.deal > .img-div{
+		padding: 5px;
+		width: 300px;
+		max-width: 300px;
+		min-width: 300px;
+		height: 200px;
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-box-shadow: 3px 3px #DA7635;
+		        box-shadow: 3px 3px #DA7635;
+		background-size: cover;
+		border-radius: 2%;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	
+
+}
+
+.deal > .deal-right{
+	max-width: 600px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.deal > .deal-right > a{
+
+	text-decoration: none;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	margin-bottom: 10px;
+}
+
+.deal > .deal-right > p{
+
+	margin-bottom: 10px;
+}
+
+.deal > .deal-right > a:hover{
+	color: #DA7635;
+}
+
+.deal-suggestion h4{
+
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+@media only screen and (max-width:800px){
+	.deals{
+
+		padding: 5%;
+		
+	}
+	.deal{
+	
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;
+
+
+		
+	}
+
+}
+
+@media only screen and (max-width:600px){
+
+		.deal{
+
+			-webkit-box-orient: vertical;
+
+			-webkit-box-direction: normal;
+
+			    -ms-flex-direction: column;
+
+			        flex-direction: column;
+			width: 100%;
+			margin: 0;
+			-webkit-box-align: center;
+			    -ms-flex-align: center;
+			        align-items: center;
+			margin-bottom: 10px;
+			-ms-flex-pack: distribute;
+			    justify-content: space-around;
+			
+		}
+		.deal >.img-div{
+			height: 200px;
+		}
+
+
+}

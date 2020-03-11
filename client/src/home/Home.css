@@ -1,0 +1,42 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body{
+
+    background-color: #f0f0f0;
+
+}
+#home-container{
+
+    margin: 20px 50px;
+    background-color: #fff;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+}
+#home-container h2{
+
+    font-family: 'Montserrat', sans-serif;
+    color:  #894e00;
+    text-align: center;
+    margin: 10px 0 20px 0;
+   
+    font-size: 1.5em;
+    
+}
+
+@media only screen and (max-width:800px){
+    
+    #home-container{
+        
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    #home-container h2{
+
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+}

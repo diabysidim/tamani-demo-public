@@ -1,0 +1,26 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+#deal-category-container{
+    padding-top: 20px;
+}
+#deal-category-container h1{
+
+    font-size: 2em;
+    padding-left: 120px;
+    margin-bottom: 5px;
+
+}
+
+#deal-category-container .btn-sort{
+
+    padding-left: 120px;
+}
+
+.dropdown-box{
+    margin-left: 0;
+}
+
+.deal .img-div{
+
+    margin-left: 0;
+}

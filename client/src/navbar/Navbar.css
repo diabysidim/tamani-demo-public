@@ -1,0 +1,178 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.nav-global{
+	
+	padding: 0  20px 0 20px;
+	-webkit-box-shadow:  1px 1px rgba(0,0,0,0.2);
+	        box-shadow:  1px 1px rgba(0,0,0,0.2);
+	background-color: #FFF;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	max-width: 100vw;
+	
+
+
+	
+}
+
+.nav-global .nav-container{
+	
+	
+	display: -webkit-box;
+	
+	
+	display: -ms-flexbox;
+	
+	
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+
+	width: 100%;
+	
+
+}
+
+.nav-container .first-row{
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 80%;
+	margin: auto;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	padding: 5px 50px 0;
+		
+}
+
+.nav-container .first-row .brand{
+
+	color: #DA7635;
+	text-decoration: none;
+	
+	font-size: 30px;
+	margin-bottom: 5px;
+
+	
+}
+
+.nav-container .first-row form{
+
+	margin: auto;
+	margin-bottom: 0;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.nav-container .first-row form .nav-search{
+
+	height: 100%;
+	border: 1px solid  #DA7635;
+	border-right: none;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+.nav-container .first-row form i{
+	color: #DA7635 ;
+}
+
+
+
+.nav-container .first-row form button{
+
+	height: 100%;
+	background-color: #FFF;
+	border: 1px solid #DA7635;
+	border-left: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.nav-container .first-row form button:hover{
+
+		cursor: pointer;
+}
+
+
+
+
+.nav-container .second-row ul{
+
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	/*display: none;*/
+}
+.nav-container .second-row li{
+	
+	display: inline-block;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 5px 5px;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+
+
+
+}
+.nav-container .second-row li a{
+	
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+	color: black;
+	font-weight: 300;
+	height: 100%;
+	width: 100%;
+	padding: 8px 5px;
+	
+	
+
+}
+.nav-container .second-row li a:hover{
+
+	color: #DA7635;
+}
+
+.clicked{
+
+    color: #DA7635;
+}
+
+
+
+
+
+

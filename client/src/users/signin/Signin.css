@@ -1,0 +1,68 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+.signin-container{
+
+    width: 100%;
+    padding: 10px 100px;
+
+    min-height: calc(100vh - 400px);
+    
+    
+
+}
+.input-container{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    
+    -webkit-box-shadow: 1px 1px rgba(0,0,0,0.1);
+    
+            box-shadow: 1px 1px rgba(0,0,0,0.1);
+  
+    -webkit-box-orient: vertical;
+  
+    -webkit-box-direction: normal;
+  
+        -ms-flex-direction: column;
+  
+            flex-direction: column;
+    border: 1px solid #DA7635;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.input-container > *{
+    margin: 10px;
+   
+}
+.input-container > input{
+
+    height: 50px;
+    background-color: #DA7635;
+}
+.signin-container form{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+
+}

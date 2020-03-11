@@ -1,0 +1,42 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+
+.create-deal-container{
+
+    padding: 10px 100px;
+    text-align: center;
+}
+.create-deal-container form{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.create-deal-container form > div >*{
+
+    margin:10px 20px 10px 0;
+}
+.create-deal-container form > *{
+
+    margin: 10px;
+}
+
+
+.create-deal-container form button{
+
+    width: 100px;
+    margin-top: 20px;
+
+}
+.react-quill{
+    
+    margin: 30px;
+    min-height: 300px;
+}

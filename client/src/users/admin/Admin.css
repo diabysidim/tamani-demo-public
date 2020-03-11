@@ -1,0 +1,51 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.Admin-container{
+
+    display: block;
+    padding: 10px 100px;
+    width: 100%;
+    min-height: 400px;
+
+}
+
+.option-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.option-container a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: #DA7635;
+    color: #fff;
+    padding: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+
+}
+
+.option-container a:hover{
+
+    color: #DA7635;
+    background-color:  #fff;
+    border: 2px solid #DA7635 ;
+}
